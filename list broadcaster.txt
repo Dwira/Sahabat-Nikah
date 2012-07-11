@@ -1,22 +1,22 @@
->Bambuser
+>Bambuser --> http://bambuser.com/channel/Dwira
 	-kualitas : 240 320 480 
 	-video setelah live stream disimpen di galery
 	-++di halaman bambuser ada chat, map lokasi broadcast
 		
->Ustream
+>Ustream --> http://www.ustream.tv/channel/dwira
 	-video habis live stream tidak disimpen
 	
->Google+ Hangouts via youtube
+>Google+ Hangouts via youtube --> pveyes79
 	-kualitas bagus (web-cam) kalau dari android di tempat fatih tidak ada kamera depan jadi di app google+ ga ada hangouts nya
 	-harus pake kamera depan(?)
 	-disimpan di youtube, jadi penglihat tidak perlu masuk ke halaman kita bisa langsung di youtube
 	-live stream lancar dibanding yg lainnya
 	
->justin-tv
+>justin-tv --> http://www.justin.tv/dwirak
 	-error login di android
 	
->filxwagon
+>filxwagon --> dwirak
 	-android tdk ada app-nya, iphone belum coba
 	
->qik
+>qik --> www.pveyes.com/video
 	-yg tidak premium kualitas jelek

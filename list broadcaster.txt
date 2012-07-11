@@ -1,0 +1,22 @@
+>Bambuser
+	-kualitas : 240 320 480 
+	-video setelah live stream disimpen di galery
+	-++di halaman bambuser ada chat, map lokasi broadcast
+		
+>Ustream
+	-video habis live stream tidak disimpen
+	
+>Google+ Hangouts via youtube
+	-kualitas bagus (web-cam) kalau dari android di tempat fatih tidak ada kamera depan jadi di app google+ ga ada hangouts nya
+	-harus pake kamera depan(?)
+	-disimpan di youtube, jadi penglihat tidak perlu masuk ke halaman kita bisa langsung di youtube
+	-live stream lancar dibanding yg lainnya
+	
+>justin-tv
+	-error login di android
+	
+>filxwagon
+	-android tdk ada app-nya, iphone belum coba
+	
+>qik
+	-yg tidak premium kualitas jelek

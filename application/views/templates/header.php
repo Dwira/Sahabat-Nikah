@@ -5,7 +5,6 @@
 </head>
 <body>
 <div id="header">
-	<div id="logo">
-	</div>
-	<?php include("navigation.php"); ?>
+<div id="logo">
+</div>
 </div>

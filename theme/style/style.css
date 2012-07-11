@@ -2,326 +2,163 @@ body {
 	margin:0;
 	padding:0;
 	font-family:sans-serif;
+	background:#f7f7f7 url('../img/bg.png');;
+	font-size:13px;
 }
 
 .clearfix {
 	clear:both;
 }
 
-#header {
-
-}
-
-#logo {
-	height:100px;
-}
-
-#menu {
-	background:#000;
-}
-
-#menulogin{
-}
-
-
-#menu ul#main {
-	width:980px;
-	list-style:none;
-	padding:0;
-	margin:0 auto;
-}
-
-#menu li {
-	float:left;
-}
-
-#menu a {
-	display:block;
-	font-weight:bold;
+a {
 	text-decoration:none;
-	padding:20px 25px;
 	color:#fff;
 }
 
-#menu a:hover {
-	background:#F00058;
+input {
+	outline:none;
 }
 
-#menu li.expand {
-	position:relative;
-}
-
-#menu li.expand ul {
+#main-content {
 	position:absolute;
-	top:60px;left:0px;
-	background:#000;
-	padding:0px;;
-	display:none;
+	top:50%;left:50%;
+	margin-top:-200px;
+	margin-left:-450px;
+	width:900px;
+	height:400px;
 }
 
-#menu li.expand a {
-	width:84px;
+#logo {
+	position:absolute;
+	left:50%;margin-left:-52.5px;
+	margin-top:5px;
+	width:105px;height:45px;
+	background:url('../img/logo2.png');
+	background-size:105px;
 }
 
-#menu li.expand:hover ul {
+#viewer-content {
+	float:left;
+}
+
+#featured-wedding {
+	position:relative;
+	width:500px;
+	border:10px solid #fff;
+	box-shadow:1px 3px 3px rgba(0,0,0,0.2);
+}
+
+#featured-wedding img{
+	-webkit-transition:opacity 0.15s linear;
+	-moz-transition:opacity 0.15s linear;
+	-o-transition:opacity 0.15s linear;
+	transition:opacity 0.15s linear;
+	border:1px solid rgba(0,0,0,0.2);
+
+}
+
+#featured-wedding:hover img{
+	opacity:0.7;
+}
+
+#featured-title {
+	position:absolute;
+	bottom:0px;left:0px;right:0px;
+	padding:10px;
+	background:rgba(0,0,0,0.4);
+	display:block;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	color:#fff;
+	font-weight:bold;
+}
+
+#featured-wedding span{
+	font-weight:normal;
+}
+
+#search-wedding {
+	margin-top:25px;
+}
+
+#search-wedding label {
 	display:block;
 }
 
-#slider {
-	width:480px;
-	height:300px;
-	background:#3399ff;
-	margin:20px 0px 20px 0px;
-}
-#slider1 {
-	width:980px;
-	height:400px;
-	background:#3399ff;
-	margin:20px auto;
+#search-wedding input[type='text'] {
+	margin-top:5px;
+	padding:5px;
+	width:450px;
 }
 
-#content {
-	width:980px;
-	margin:30px auto;
+#search-wedding input[type='submit'] {
+	border:0px;
+	padding:7.5px 10px;
+	background:#fd7133;
+	color:#fff;
+	font-weight:bold;
+	border-radius:3px;
 }
 
-#left-content {
-	width:630px;
-	height:400px;
-	float:left;
-	background:#fff;
-}
-
-#right-content {
+#welcome-message {
 	float:left;
 	margin-left:50px;
 	width:300px;
 }
 
-#watch {
-	height:100px;
-	font-style: italic;
-	color: #777;
-
+#welcome-message h1 {
+	margin-top:12px;
 }
 
-#watch h3 {
-	margin:0px;
+#welcome-message p {
+	color:#444;
+	line-height:19px;
 }
 
-#watchfield{
-	width:480px;
-	height:300px;
-	background:#3399ff;
-	text-align : left;
-	margin: 20px 0;
+#welcome-message a {
+	display:block;
+	padding:10px 8px;
+	float:left;
+	margin:7.5px 10px 7.5px 0px;
+	text-align:center;
+	font-weight:bold;
+	border-radius:4px;
 }
 
-#watch input[type='text'] {
-	outline:none;
-	width:240px;
-	padding:7.5px;
+#welcome-message #demo {
+	background:#fd7133;
 }
-
-#watch input[type='submit']  {
-	padding:7.5px 10px;
-}
-
-#testimonial {
-	font-family : times new roman;
-	margin : 20 px auto;
-}
-
-#formtanya{
-margin : 20px 0px;
-width:800px;
-height:300px;
-text-align: left;
-font-family : times new roman
-}
-
-.hurufkecil {
-	font-size : 12px
-	}
-	
-.hurufbesar {
-	font-size : 30px;
-	color : #F00058;
-	font-family : Rockwell;
-	text-align : center;
-	margin : 20px auto;
-}
-.calibri {
-	font-size : 18px;
-	color : #000;
-	font-family : Calibri
-}		
-
-.lihat {
-	text-align : right;
-	margin: 20px auto;
-	color : #f00058;
-	}
-	
-#kotak{
-	width : 100px;
-	height : 50px;
-	background-color : #000;
-
+#welcome-message #register {
+	background:#9dca00;
+	width:90px;
 }
 
 #footer {
+	position:absolute;
+	left:50%;top:50%;
+	margin-left:-460px;
+	margin-top:225px;
 	width:900px;
-	height: 62px;
-	padding:20px 40px 20px;
-	background:#efefef;
-	margin:50px auto 0px;
 }
 
-#kolompesan{
-	font-family : Cambria;
-	font-size : 20px;
-	color :#F00058;
-	background  : #000;
-	height : 100px;
-	width: 300px;
-	text-align : center;
-	padding : 20px;
+#footer ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	font-size:12px;
 }
 
-#login {
-background-color: #f0f0f0;
-background-repeat: no-repeat;
-background-position:center;
-padding: 25px 0 0 25px;
-width:275px;
-height:275px;
-text-align: left;
-margin:20px auto;
-}
-
-#left-content1 {
-	width:600px;
+#footer li {
 	float:left;
-	font-size : 11px;
-	
+	display:block;
+	margin:0px 5px;
+	padding:0px 5px;
 }
 
-#right-content1 {
-	float:right;
-	margin-left:50px;
-}
-/*
-.accordion h3 + div {
-	height: 0px;
-	overflow: hidden;
-	-webkit-transition: height 0.3s ease-in;
-	-moz-transition: height 0.3s ease-in;
-	-o-transition: height 0.3s ease-in;
-	-ms-transition: height 0.3s ease-in;
-	transition: height 0.3s ease-in;
+#footer a {
+	color:#333;
 }
 
-.accordion:	target h3 + div {
-	height: 100px;
-}
-
-.accordion .section.large:target h3 + div {
-	overflow: auto;
-}*/
-.ac-container{
-	width: 400px;
-	margin: 10px auto 30px auto;
-	text-align: left;
-}
-.ac-container label{
-	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	padding: 5px 20px;
-	position: relative;
-	z-index: 20;
-	display: block;
-	height: 30px;
-	cursor: pointer;
-	color: #777;
-	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
-	line-height: 33px;
-	font-size: 19px;
-	background: #ffffff;
-	background: -moz-linear-gradient(top, #ffffff 1%, #eaeaea 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(100%,#eaeaea));
-	background: -webkit-linear-gradient(top, #ffffff 1%,#f0058 100%);
-	background: -o-linear-gradient(top, #ffffff 1%,#f00058 100%);
-	background: -ms-linear-gradient(top, #ffffff 1%,#f00058 100%);
-	background: linear-gradient(top, #ffffff 1%,#f00058 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f00058',GradientType=0 );
-	box-shadow: 
-		0px 0px 0px 1px rgba(155,155,155,0.3), 
-		1px 0px 0px 0px rgba(255,255,255,0.9) inset, 
-		0px 2px 2px rgba(0,0,0,0.1);
-}
-.ac-container label:hover{
-	background: #fff;
-}
-.ac-container input:checked + label,
-.ac-container input:checked + label:hover{
-	background: #fee1ee;
-	color: #3d7489;
-	text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
-	box-shadow: 
-		0px 0px 0px 1px rgba(155,155,155,0.3), 
-		0px 2px 2px rgba(0,0,0,0.1);
-}
-.ac-container label:hover:after,
-.ac-container input:checked + label:hover:after{
-	content: '';
-	position: absolute;
-	width: 24px;
-	height: 24px;
-	right: 13px;
-	top: 7px;
-	background: transparent url(../icon/arrow_down.png) no-repeat center center;	
-}
-.ac-container input:checked + label:hover:after{
-	background-image: url(../icon/arrow_up.png);
-}
-.ac-container input{
-	display: none;
-}
-.ac-container article{
-	background: rgba(255, 255, 255, 0.5);
-	margin-top: -1px;
-	overflow: hidden;
-	height: 0px;
-	position: relative;
-	z-index: 10;
-	-webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-	-moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-	-o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-	-ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-}
-.ac-container article p{
-	font-style: italic;
-	color: #777;
-	line-height: 23px;
-	font-size: 14px;
-	padding: 20px;
-	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
-}
-.ac-container input:checked ~ article{
-	-webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-	-moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-	-o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-	-ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-	transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-	box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
-}
-.ac-container input:checked ~ article.ac-small{
-	height: 140px;
-}
-.ac-container input:checked ~ article.ac-medium{
-	height: 180px;
-}
-.ac-container input:checked ~ article.ac-large{
-	height: 230px;
+#footer #copyright {
+	color:#777;
 }

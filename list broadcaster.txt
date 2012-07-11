@@ -1,29 +1,64 @@
 >Bambuser --> http://bambuser.com/channel/Dwira
-	-kualitas : 240 320 480 
-	-video setelah live stream disimpen di channel
-	-++chat, map lokasi broadcast
-		
+	
+-kualitas : 240 320 480 
+-video setelah live stream disimpen di channel
+-kalau upstream/uploadnya lag, ntar pas streaming (live maupun TIDAK) walaupun bandwidth ga lag tetap patah"
+-++chat, map lokasi broadcast
+
+TERM
+-Except as expressly authorized by Bambuser (which it may do in its sole and absolute discretion), and as permitted herein, you agree not to use, copy, reproduce, transmit, broadcast, display, perform, license, modify, rent, distribute, lease, loan, sell, or exploit for any commercial purpose any portion of the Service, use of the Service, or access to the Service, and not to create derivative works based on the Service, in whole or in part.
+---------------------------------------------------------------------------------------------------------------------------------------
+	
 >Ustream --> http://www.ustream.tv/channel/dwira
 	-video habis live stream tidak disimpen
+
+TERM
 	
->Google+ Hangouts via youtube --> pveyes79
-	-kualitas bagus (web-cam) kalau dari android di tempat fatih tidak ada kamera depan jadi di app google+ ga ada hangouts nya
-	-harus pake kamera depan(?)
-	-disimpan di youtube, jadi penglihat tidak perlu masuk ke halaman kita bisa langsung di youtube
-	-live stream lancar dibanding yg lainnya
+---------------------------------------------------------------------------------------------------------------------------------------
+	
+>Google+ Hangouts via youtube 
+	--> pveyes79
+	
+-kualitas bagus (web-cam) kalau dari android di tempat fatih tidak ada kamera depan jadi di app google+ ga ada hangouts nya
+-harus pake kamera depan(?)
+-disimpan di youtube, jadi penglihat tidak perlu masuk ke halaman kita bisa langsung di youtube
+-live stream lancar dibanding yg lainnya
+
+TERM
+-tidak boleh komersial uses (menjual akses ke layanan)
+	--> harus mendapatkan persetujuan tertulis dari youtube
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
 >blogtv --> http://www.blogtv.com/people/dwira
 	-kalau dengan record max 30 menit
 	-berat app-nya
 	-kualitas 360p-an
+	-audience ga bisa di filter --> pro : khusus teman" dari akun (audience harus punya akun)
 	-++chat
+
+TERM
+-non-commercial
+---------------------------------------------------------------------------------------------------------------------------------------
 	
 >qik --> www.pveyes.com/video
 	-yg tidak premium kualitas jelek
 	-video setelah live stream disimpen di channel
+
+TERM
+	
+---------------------------------------------------------------------------------------------------------------------------------------
 	
 >justin-tv --> http://www.justin.tv/dwirak
 	-error login app android(hiccup)
+
+TERM
+	
+---------------------------------------------------------------------------------------------------------------------------------------
 	
 >filxwagon --> dwirak
 	-android tdk ada app-nya, iphone belum coba
+
+TERM
+	
+---------------------------------------------------------------------------------------------------------------------------------------

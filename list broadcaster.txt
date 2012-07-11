@@ -1,7 +1,7 @@
 >Bambuser --> http://bambuser.com/channel/Dwira
 	-kualitas : 240 320 480 
-	-video setelah live stream disimpen di galery
-	-++di halaman bambuser ada chat, map lokasi broadcast
+	-video setelah live stream disimpen di channel
+	-++chat, map lokasi broadcast
 		
 >Ustream --> http://www.ustream.tv/channel/dwira
 	-video habis live stream tidak disimpen
@@ -11,12 +11,19 @@
 	-harus pake kamera depan(?)
 	-disimpan di youtube, jadi penglihat tidak perlu masuk ke halaman kita bisa langsung di youtube
 	-live stream lancar dibanding yg lainnya
-	
->justin-tv --> http://www.justin.tv/dwirak
-	-error login di android
-	
->filxwagon --> dwirak
-	-android tdk ada app-nya, iphone belum coba
+
+>blogtv --> http://www.blogtv.com/people/dwira
+	-kalau dengan record max 30 menit
+	-berat app-nya
+	-kualitas 360p-an
+	-++chat
 	
 >qik --> www.pveyes.com/video
 	-yg tidak premium kualitas jelek
+	-video setelah live stream disimpen di channel
+	
+>justin-tv --> http://www.justin.tv/dwirak
+	-error login app android(hiccup)
+	
+>filxwagon --> dwirak
+	-android tdk ada app-nya, iphone belum coba

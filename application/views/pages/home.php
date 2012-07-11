@@ -10,6 +10,7 @@
 			<input type="submit" value="search" />
 		</div>
 	</div>
+	
 	<div id="welcome-message">
 		<h1>Welcome</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus arcu eu quam volutpat viverra gravida sem venenatis. In quis orci turpis. Nunc cursus elit eget enim tristique placerat faucibus leo adipiscing. Morbi auctor tortor tempor neque fringilla tincidunt. Proin purus est, pharetra ut dapibus vel, lobortis id neque.</p>

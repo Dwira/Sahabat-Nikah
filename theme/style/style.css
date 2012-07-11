@@ -28,6 +28,10 @@ input {
 	height:400px;
 }
 
+#content{
+	margin-top: -100px
+}
+
 #logo {
 	position:absolute;
 	left:50%;margin-left:-52.5px;
@@ -137,7 +141,7 @@ input {
 	position:absolute;
 	left:50%;top:50%;
 	margin-left:-460px;
-	margin-top:225px;
+	margin-top:285px;
 	width:900px;
 }
 
@@ -161,4 +165,17 @@ input {
 
 #footer #copyright {
 	color:#777;
+}
+
+.order-coloumn{
+	width :290px;
+	height:200px;
+	float : left;
+	background:#000;
+	margin:0px 2px;
+}
+#order{
+	width : 225px;
+	height : 300px;
+	background : #fff;
 }

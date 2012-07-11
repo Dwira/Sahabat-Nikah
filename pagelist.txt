@@ -1,0 +1,69 @@
+Halaman 
+	- Home  (v2)
+	- About (v1)
+	- Contact Us (v1)
+	- Gallery (v1)
+	- Pricing (v1)
+	- FAQ 
+	- Term & Cond 
+	- Fitur
+	- Wedding Page
+	- Video Page
+	- Admin -> Add Order
+	- Admin -> Wedding Page
+	- Admin -> Setting
+	
+Feature
+	- Home
+		+ Welcome Message (v)
+		+ Login
+		+ Watch  (v)
+		+ Search & Upcoming Wedding (v)
+		+ Links (v)
+	
+	- About
+		+ Link (Contact, etc)
+		
+	- Contact
+		+ Form (v)
+		+ Info (v)
+		
+	- Gallery
+		+ Per Pengantin - link ke wedding page
+	
+	- Pricing
+		+ Daftar Fitur & List harga 
+		
+	- FAQ
+		+ Toggle with click
+		
+	- Term & Cond
+		+ Teks
+	
+	- Fitur
+		+ Niru Qik
+	
+	- Wedding Page
+		+ Undangan (Teks, Map) -> event facebook -> hari H ilang
+		+ Cerita (opsional)
+		+ Guestbook -> muncul di hari H -> popup
+		+ Gallery photo -> facebook album -> zoom hover
+		+ Link watch video
+		
+	- Video Page
+		+ Video Embed
+		+ Komen -> Pesbook
+		+ Video Komen ?
+		+ Live Picture -> Google Events
+		
+	- Admin -> Add Order
+		+ Order List
+	
+	- Admin -> Wedding PAge
+		+ Preview
+		+ Color Theme
+		+ Edit Teks & Map
+	
+	- Admin Setting ->
+		+ Privacy Control
+		+ Change email/password

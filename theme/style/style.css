@@ -179,3 +179,31 @@ input {
 	height : 300px;
 	background : #fff;
 }
+
+/*wedding page start*/
+
+
+#pic-column {
+	padding-left:50px;
+	width:400px;
+	height:300px;
+	float:left;
+	margin: 0 2.5px;
+}
+
+#about-coloumn {
+	float:left;
+	width:400px;
+	height:300px;
+	background : #fff;
+}
+
+.text(
+	margin-left: auto;
+    margin-right: auto;
+)
+
+#button-watch{
+	
+}
+/*wedding page end*/

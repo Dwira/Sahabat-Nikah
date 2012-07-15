@@ -181,8 +181,10 @@ input {
 }
 
 /*wedding page start*/
-
-
+.page {
+	width:1280px;
+	height:800px;
+}
 #pic-column {
 	padding-left:50px;
 	width:400px;
@@ -198,12 +200,24 @@ input {
 	background : #fff;
 }
 
-.text(
+.text{
 	margin-left: auto;
     margin-right: auto;
-)
+}
 
 #button-watch{
 	
+}
+
+#content-left{
+	width:640px;
+	height:800px;
+	float:left;
+}
+
+#content-right{
+	width:640px;
+	height:8000px;
+	float:left;
 }
 /*wedding page end*/

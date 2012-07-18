@@ -51,5 +51,25 @@
 </div>
 <div class="clearfix"></div>
 <div class="page">
-	<h1>GALERY</h1>
+	<div class="content-wedding">
+		<h1>GALERY</h1>
+		<div class="coloumn-gallery">
+		</div>
+		<div class="coloumn-gallery">
+		</div>
+		<div class="coloumn-gallery">
+		</div>
+		<div class="coloumn-gallery">
+		</div>
+		<div class="coloumn-gallery">
+		</div>
+		<div class="coloumn-gallery">
+		</div>
+		<div class="coloumn-gallery">
+		</div>
+		<div class="coloumn-gallery">
+		</div>
+		<div class="coloumn-gallery">
+		</div>
+	</div>
 </div>

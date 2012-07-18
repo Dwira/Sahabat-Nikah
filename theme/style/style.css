@@ -206,18 +206,26 @@ input {
 }
 
 #button-watch{
-	
+	padding-left:150px;
+}
+
+.content-wedding {
+	padding-left:180px;
+	width:900px;
+	height:600px;
 }
 
 #content-left{
-	width:640px;
-	height:800px;
+	margin-left:5px;
+	width:450px;
+	height:600px;
 	float:left;
+	background:#fff;
 }
 
 #content-right{
-	width:640px;
-	height:8000px;
+	width:440px;
+	height:600px;
 	float:left;
 }
 /*wedding page end*/

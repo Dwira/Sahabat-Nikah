@@ -1,8 +1,9 @@
+
 body {
 	margin:0;
 	padding:0;
 	font-family:sans-serif;
-	background:#f7f7f7 url('../img/bg.png');;
+	background:#fff url('../img/bg.png');;
 	font-size:13px;
 }
 
@@ -19,129 +20,44 @@ input {
 	outline:none;
 }
 
-#main-content {
-	position:absolute;
-	top:50%;left:50%;
-	margin-top:-200px;
-	margin-left:-450px;
-	width:900px;
-	height:400px;
-}
+/* Default Style End */
 
-#content{
-	margin-top: -100px
+#header {
+	position:relative;
+	height:70px;
+	width:900px;
+	margin:0px auto;
 }
 
 #logo {
 	position:absolute;
-	left:50%;margin-left:-52.5px;
+	left:0px;
 	margin-top:5px;
 	width:105px;height:45px;
 	background:url('../img/logo2.png');
 	background-size:105px;
 }
 
-#viewer-content {
-	float:left;
-}
-
-#featured-wedding {
-	position:relative;
-	width:500px;
-	border:10px solid #fff;
-	box-shadow:1px 3px 3px rgba(0,0,0,0.2);
-}
-
-#featured-wedding img{
-	-webkit-transition:opacity 0.15s linear;
-	-moz-transition:opacity 0.15s linear;
-	-o-transition:opacity 0.15s linear;
-	transition:opacity 0.15s linear;
-	border:1px solid rgba(0,0,0,0.2);
-
-}
-
-#featured-wedding:hover img{
-	opacity:0.7;
-}
-
-#featured-title {
-	position:absolute;
-	bottom:0px;left:0px;right:0px;
-	padding:10px;
-	background:rgba(0,0,0,0.4);
-	display:block;
-	border-bottom-left-radius:5px;
-	border-bottom-right-radius:5px;
-	color:#fff;
-	font-weight:bold;
-}
-
-#featured-wedding span{
-	font-weight:normal;
-}
-
-#search-wedding {
-	margin-top:25px;
-}
-
-#search-wedding label {
-	display:block;
-}
-
-#search-wedding input[type='text'] {
-	margin-top:5px;
-	padding:5px;
-	width:450px;
-}
-
-#search-wedding input[type='submit'] {
-	border:0px;
-	padding:7.5px 10px;
-	background:#fd7133;
-	color:#fff;
-	font-weight:bold;
-	border-radius:3px;
-}
-
-#welcome-message {
-	float:left;
-	margin-left:50px;
-	width:300px;
-}
-
-#welcome-message h1 {
-	margin-top:12px;
-}
-
-#welcome-message p {
-	color:#444;
-	line-height:19px;
-}
-
-#welcome-message a {
-	display:block;
-	padding:10px 8px;
-	float:left;
-	margin:7.5px 10px 7.5px 0px;
-	text-align:center;
-	font-weight:bold;
+.login {
+	/*position:absolute;*/
+	width : 60px;
+	right:0px;top:10px;
 	border-radius:4px;
-}
-
-#welcome-message #demo {
-	background:#fd7133;
-}
-#welcome-message #register {
-	background:#9dca00;
-	width:90px;
+	padding:10px;
+	background:#000;
+	color:#fff;
+	font-weight:bold;
+	font-size:12px;	
+	float : right;
+	margin-top : 15px;
+	margin-left : 10px;
+	text-align : left;
 }
 
 #footer {
 	position:absolute;
-	left:50%;top:50%;
+	left:50%;bottom:25px;
 	margin-left:-460px;
-	margin-top:285px;
 	width:900px;
 }
 
@@ -167,22 +83,518 @@ input {
 	color:#777;
 }
 
-.order-coloumn{
+/* Home Page Start */
+
+#main-content {
+	position:absolute;
+	top:50%;left:50%;
+	margin-top:-200px;
+	margin-left:-450px;
+	width:900px;
+	height:400px;
+}
+
+#viewer-content {
+	float:left;
+}
+
+#featured-wedding {
+	position:relative;
+	width:500px;
+	border:10px solid #fff;
+	box-shadow:0px 3px 13px rgba(0,0,0,0.2);
+}
+
+#featured-wedding img{
+	-webkit-transition:opacity 0.15s linear;
+	-moz-transition:opacity 0.15s linear;
+	-o-transition:opacity 0.15s linear;
+	transition:opacity 0.15s linear;
+	border:1px solid rgba(0,0,0,0.2);
+
+}
+
+#featured-wedding:hover img{
+	opacity:0.7;
+}
+
+#featured-title {
+	position:absolute;
+	bottom:0px;left:0px;right:0px;
+	padding:10px;
+	background:rgba(0,0,0,0.4);
+	display:block;
+	color:#fff;
+	font-weight:bold;
+}
+
+#featured-wedding span{
+	font-weight:normal;
+}
+
+#search-wedding {
+	margin-top:50px;
+	float : left;
+}
+
+#search-wedding label {
+	display:block;
+	width : 400px;
+}
+
+#search-wedding input[type='text'] {
+	margin-top:5px;
+	padding:5px;
+	width:450px;
+}
+
+#search-wedding input[type='submit'] {
+	border:0px;
+	padding:7.5px 10px;
+	background:#fd7133;
+	color:#fff;
+	font-weight:bold;
+	border-radius:3px;
+}
+
+#welcome-message {
+	float:left;
+	margin-left:600px;
+	margin-top : -400px;
+	width:300px;
+}
+
+#welcome-message h1 {
+	margin-top:12px;
+}
+
+#welcome-message p {
+	color:#444;
+	line-height:19px;
+}
+
+/*#welcome-message a {
+	display:block;
+	padding:10px 8px;
+	float:left;
+	margin:7.5px 10px 7.5px 0px;
+	text-align:center;
+	font-weight:bold;
+	border-radius:4px;
+}
+
+#welcome-message #demo {
+	background:#fd7133;
+}
+#welcome-message #register {
+	background:#9dca00;
+	width:90px;
+}
+*/
+/*tambahan*/
+#welcome-message * {
+	padding: 0;
+	margin: 0;
+}
+
+#welcome-message ul {
+	position: absolute;
+	top: 60%;
+	left: 85%;
+	width: 320px;
+	height: 30px;
+	margin: -15px 0 0 -160px;
+	list-style: none;
+	font: .75em "lucida grande", arial, sans-serif;
+}
+
+#welcome-message a {
+	position: absolute;
+	width: 150px;
+	height: 100%;
+	text-decoration: none;
+}
+
+#welcome-message a span {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	line-height: 30px;
+}
+
+#welcome-message li:first-child a {
+	color: #000;
+	background: #fd7133;
+}
+
+#welcome-message li:first-child span {
+	-webkit-transition: opacity .4s linear;
+	-moz-transition: opacity .4s linear;
+	-o-transition: opacity .4s linear;
+	-ms-transition: opacity .4s linear;
+	transition: opacity .4s linear;
+}
+
+li:first-child span:first-child,li:first-child a:hover span + span {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+li:first-child span + span,li:first-child a:hover span:first-child {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+#welcome-message li + li a {
+	overflow: hidden;
+	right: 0;
+	color: #fff;
+}
+
+#welcome-message li + li span {
+	-webkit-transition: top .3s ease-out;
+	-moz-transition: top .3s ease-out;
+	-o-transition: top .3s ease-out;
+	-ms-transition: top .3s ease-out;
+	transition: top .3s ease-out;
+}
+
+#welcome-message li + li span:first-child {
+	background: #333;
+	top: 0;
+}
+
+#welcome-message li + li span + span {
+	background: #39f;
+	top: 30px;
+}
+
+#welcome-message li + li a:hover span:first-child {
+	top: -30px;
+}
+
+#welcome-message li + li a:hover span + span {
+	top: 0;
+}
+
+/* Home Page End */
+
+/* Pricing Page Start */
+
+#pricing-content{
+	margin-top:100px;
+	background:#fff;
+	width:960px;
+	margin:30px auto 0px;
+	padding:35px;
+	box-shadow:0px 3px 15px rgba(0,0,0,0.15);
+}
+
+.order-coloumn {
 	width :290px;
 	height:200px;
 	float : left;
-	background:#000;
-	margin:0px 2px;
-}
-#order{
-	width : 225px;
-	height : 300px;
-	background : #fff;
+	margin:0px 10px;
 }
 
+.order-coloumn h1 {
+	color:#abcdef;
+	background:#012345;
+}
+
+.button-order{
+	float:right;
+	margin-top:10px;
+}
+
+/* Pricing Page End */
+
+/* Galery Page Start */
+#galery-content {
+	margin-top:100px;
+	width:960px;
+	margin:30px auto 0px;
+	padding:35px;
+	}
+.photo-coloumn {
+	width : 187px;
+	height : 131px;
+	float : left;
+	margin : 20px 20px;
+	background : #fff;
+}
+.text-photo{
+	margin-top : 130px;
+	margin-left : 0px;
+	float : center;
+	font-family : arial;
+	font-size: 14px;
+	color : #000;
+	text-align : center;
+	font-weight : bold;
+}
+#other-page{
+	margin-top : 550px;
+	margin-left : 20px;
+	width : 880px;
+	/*background : #333;*/
+}
+.l{
+	float : left;
+	text-align : left;
+	font-weight : bold;
+	color : red;
+}
+.r{
+	float : right;
+	text-align : right;
+	font-weight : bold;
+	color : red;
+}
+/* Galery Page End */
+
+/* Contact Page Start */
+#contact-content {
+	width:960px;
+	margin:0px auto 0px ;
+	padding:50px;
+	font-family : calibri;
+	font-size : 16px;
+}
+#contact-content h1{
+	font-size : 30px;
+	color : #000;
+	font-family : Arial Bold;
+}
+#contact-content fieldset{
+	margin-top : -200px;
+	margin-left : 500px;
+	padding : 20px;
+	float : left;
+	background : #D4BFFF;
+	border:none;
+	border-radius : 10px;
+	box-shadow : 0px 3px 13px rgba(0,0,0,0.2);
+}
+fieldset div input,fieldset div textarea{width:220px;border-top:1px solid #555;border-left:1px solid #555;border-bottom:1px solid #ccc;border-right:1px solid #ccc;padding:auto;color:#333}
+#contact-content label{float:left;width:50px;padding:0 2em;text-align:left;}
+.fm-req {font-weight : bold}
+#fm-submit{clear:both;padding-top:1em;text-align:right;}
+#fm-submit input{border:1px solid #333;padding:2px 1em;background: #555;color:#fff;font-size:100%; width: 80px}
+/* Contact Page End */
+
+/* About Page Start*/
+#about-content{
+	width:960px;
+	margin:0px;
+	padding:50px;
+}
+#left-content{
+	width:480px;
+	margin-left : 220px;
+	height : 600px;
+	padding : 0px;
+	background : #000;
+	position : absolute
+}
+#right-content{
+	width : 300px;
+	margin-top : 0px;
+	margin-left : 800px;
+	height : 300px;
+	padding : 0px;
+	background : #333;
+	position : absolute
+}
+.right-content1{
+	height : 250px;
+	margin-top :350px;
+	background : #fff
+}
+/* About Page End */
+
+/* Fitur Page Start */
+#fitur-content {
+	position : relative;
+	margin-top:30px;
+	width:960px;
+	margin-left : 200px;
+	padding:35px;
+}
+.fitur-coloumn {
+	position : relative;
+	width : 308px;
+	height : 138px;
+	float : left;
+	margin : 5px 5px;
+	background : #cde0f3;
+	border-radius:7.5px;
+}
+/* Fitur Page End */
+
+/* FAQ Page Start */
+#FAQ-content{
+	margin-top:30px;
+	width:850px;
+	margin-left : 260px;
+	padding:0px;
+}
+#contain {
+	width: 100%;
+	height: 500px;
+	margin-left: 10px;
+	margin-top : 50px
+}
+.accordion,.accordion div,.accordion p,.accordion a, {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+/* Accordion Layout Styles */
+.accordion {
+	width: 500px;
+	padding: 1px 5px 5px 5px;
+	background: #141517;
+	-webkit-box-shadow: 0px 1px 0px rgba(255,255,255, .05);
+	-moz-box-shadow: 0px 1px 0px rgba(255,255,255, .05);
+	box-shadow: 0px 1px 0px rgba(255,255,255, .05);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.accordion .tab {
+	display: block;
+	height: 35px;
+	margin-top: 4px;
+	padding-left: 20px;
+	font: bold 16px/35px Arial, sans-serif;
+	text-decoration: none;
+	color: #eee;
+	text-shadow: 1px 1px 0px rgba(0,0,0, .2);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(top, #6c6e74 0%, #4b4d51 100%);
+	background: -moz-linear-gradient(top, #6c6e74 0%, #4b4d51 100%);
+	background: -o-linear-gradient(top, #6c6e74 0%, #4b4d51 100%);
+	background: -ms-linear-gradient(top, #6c6e74 0%, #4b4d51 100%);
+	background: linear-gradient(top, #6c6e74 0%, #4b4d51 100%); /* W3C */
+	-webkit-box-shadow: 0px 1px 0px rgba(0,0,0, .1), inset 0px 1px 0px rgba(255,255,255, .1);
+	-moz-box-shadow: 0px 1px 0px rgba(0,0,0, .1), inset 0px 1px 0px rgba(255,255,255, .1);
+	box-shadow: 0px 1px 0px rgba(0,0,0, .1), inset 0px 1px 0px rgba(255,255,255, .1);
+}
+.accordion .tab:hover,.accordion div:target .tab {
+	color: #2b3b06;
+	text-shadow: 0px 1px 0px rgba(255,255,255, .15);
+	background: -webkit-linear-gradient(top, #a5cd4e 0%, #6b8f1a 100%);
+	background: -moz-linear-gradient(top, #a5cd4e 0%, #6b8f1a 100%);
+	background: -o-linear-gradient(top, #a5cd4e 0%, #6b8f1a 100%);
+	background: -ms-linear-gradient(top, #a5cd4e 0%, #6b8f1a 100%);
+	background: linear-gradient(top, #a5cd4e 0%, #6b8f1a 100%); /* W3C */
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
+	box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
+}
+.accordion div .content-faq {
+	display: none;
+	margin: 5px 0;
+}
+.accordion div:target .content-faq {
+	display: block;
+}
+.accordion > div {
+	height: 40px;
+	overflow: hidden;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.accordion > div:target {
+	height: 360px;
+}
+
+/* Accordion Content Styles */
+
+.accordion .content-faq p {
+	margin: 10px 0;
+	color: white;
+	font: 14px/16px Arial, sans-serif;
+}
+
+.accordion .content-faq em.bullet {
+	width: 5px;
+	height: 5px;
+	margin: 0 5px;
+	background: #6b8f1a;
+	display: inline-block;
+	-webkit-box-shadow: inset 1px 1px 1px rgba(255,255,255, 0.4);
+	-moz-box-shadow: inset 1px 1px 1px rgba(255,255,255, 0.4);
+	box-shadow: inset 1px 1px 1px rgba(255,255,255, 0.4);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+/* FAQ Page End */
+
+/* Term Of Service Page Start */
+#term-content {
+	width:960px;
+	margin-left:200px;
+	padding:50px;
+	border : 2px solid #333;
+	box-shadow:0px 3px 20px rgba(0,0,0,0.5);
+	background : #e6e3e3
+}
+#term-content p{
+	text-align: justify;
+	font-size : 12px;
+	padding : 0px;
+}
+#term-content h1{
+	margin-top : 0px;
+	margin-bottom : 30px;
+	font-size : 24px;
+	font-weight : bold;
+	color : #644AD8
+}
+#term-content h2{
+	font-size : 20px;
+	font-weight : bold;
+}
+/* Term Of Service Page End */
+
+/* Registrasi Page Start*/
+#form-content {
+	width:960px;
+	margin-left:200px;
+	padding:50px;
+	border : 2px solid #333;
+	box-shadow:0px 3px 20px rgba(0,0,0,0.5);
+	background : #f4f3f3;
+	opacity : 0.8
+}
+fieldset{margin:30px 10px;border:none;border-top:1px solid#333;}
+legend{margin:1em 0;padding:0 .5em;color:#f00058;background:transparent;font-size:1.3em;font-weight:bold;}
+#form-content label{float:left;width:100px;padding:0 1em;text-align:right;}
+fieldset div{margin-bottom:.5em;padding:0;display:block;}
+fieldset div input,fieldset div textarea{width:220px;border-top:1px solid #555;border-left:1px solid #555;border-bottom:1px solid #ccc;border-right:1px solid #ccc;padding:1px;color:#333;}
+fieldset div select{padding:1px;}div
+.fm-multi div{margin:5px 0;}div
+.fm-multi input{width:1em;}div
+.fm-multi label{display:block;padding-left:5em;text-align:left;}
+#fm-submit{clear:both;padding-top:1em;text-align:right;}
+#fm-submit input{border:1px solid #333;padding:2px 1em;background: #555;color:#fff;font-size:100%;}input:focus,textarea:focus{background:#efefef;color:#000;}fieldset div
+.fm-req{font-weight:bold;}fieldset div
+.fm-req label:before{content:"* ";}
+/*Registrasi Page End */
 /*wedding page start*/
 .page {
-	width:1280px;
+	width:1260px;
 	height:800px;
 }
 #pic-column {
@@ -231,8 +643,115 @@ input {
 
 .coloumn-gallery{
 	width :290px;
-	height:200px;
+	height:190px;
 	float : left;
 	background:#000;
 	margin:2px 2px;
+}
+
+/* =Hoverbox Code
+----------------------------------------------------------------------*/
+
+.hoverbox
+{
+	cursor: default;
+	list-style: none;
+}
+
+.hoverbox a
+{
+	cursor: default;
+}
+
+.hoverbox a .preview
+{
+	display: none;
+}
+
+.hoverbox a:hover .preview
+{
+	display: block;
+	position: absolute;
+	top: -33px;
+	left: -45px;
+	z-index: 1;
+}
+
+.hoverbox img
+{
+	background: #fff;
+	border-color: #aaa #ccc #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 100px;
+	height: 75px;
+}
+
+.hoverbox li
+{
+	background: #eee;
+	border-color: #ddd #bbb #aaa #ccc;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	display: inline;
+	float: left;
+	margin: 3px;
+	padding: 5px;
+	position: relative;
+}
+
+.hoverbox .preview
+{
+	border-color: #000;
+	width: 400px;
+	height: 300px;
+}	
 /*wedding page end*/
+
+/*view page start*/
+
+#content-watch {
+	width:1080px;
+	margin:30px auto;
+}
+
+#left-content-watch {
+	width:720px;
+	/*height:600px;*/
+	float:left;
+	background:#fff;
+}
+
+#right-content-watch {
+	float:left;
+	margin-left:50px;
+	width:300px;
+}
+
+#video-comment {
+	width:720px;
+	height:400px;
+	background:#aabbcc;
+	margin:5px auto;
+}
+
+#box-watch {
+	width:720px;
+	height:400px;
+	background:#3399ff;
+	margin:0px auto;
+	}
+
+#box-photo {
+	width:270px;
+	padding:10px;
+	border:5px solid gray;
+	margin:0px;
+	height:490px
+}
+
+/*view page end*/

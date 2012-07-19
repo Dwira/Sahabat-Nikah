@@ -5,6 +5,8 @@
 </head>
 <body>
 <div id="header">
-<div id="logo">
-</div>
+	<a href="home"><div id="logo"></div></a>
+	<div class="login">LOGIN</div>
+	<div class="login">REGISTER</div>
+
 </div>

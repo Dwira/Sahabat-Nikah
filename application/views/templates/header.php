@@ -5,7 +5,7 @@
 </head>
 <body>
 <div id="header">
-	<a href="home"><div id="logo"></div></a>
+	<a href="<?= base_url() ?>home"><div id="logo"></div></a>
 	<div class="login">LOGIN</div>
 	<div class="login">REGISTER</div>
 

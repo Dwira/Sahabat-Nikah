@@ -24,6 +24,7 @@ TERM
 -harus pake kamera depan(?)
 -disimpan di youtube, jadi penglihat tidak perlu masuk ke halaman kita bisa langsung di youtube
 -live stream lancar dibanding yg lainnya
+-harus via web
 
 TERM
 -tidak boleh komersial uses (menjual akses ke layanan)

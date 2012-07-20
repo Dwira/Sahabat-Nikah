@@ -7,7 +7,7 @@
 			<h1 class="text">Wedding Proxy</h1>
 			<h2 class="text">Gunawan Sasongko & Rizki Amalia</h2>
 			<h3 class="text">Sunday, 15 July 2012</br>Tempat Mana pun lah</h3>
-			<div id="button-watch" ><a href="#"><img src="<?=base_url();?>theme/img/watch.jpg" height ="100px" width="100px"/></a></div> 
+			<div id="button-watch" ><a href="view"><img src="<?=base_url();?>theme/img/watch.jpg" height ="100px" width="100px"/></a></div> 
 		</div>
 	</div>
 </div>

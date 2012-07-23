@@ -17,13 +17,13 @@
 		<nav>
 		  <ul>
 			<li>
-			  <a href="#">
+			  <a href="<?= base_url() ?>register">
 				<span>I'm Interested</span>
 				<span>Sign Up Now!!</span>
 			  </a>
 			</li>
 			<li>
-			  <a href="#">
+			  <a href="<?= base_url() ?>feature">
 				<span>Want to learn more?</span>
 				<span>Watch Feature :)</span>
 			  </a>

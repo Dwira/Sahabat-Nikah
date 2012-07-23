@@ -1,9 +1,10 @@
 <div id="galery-content">
 	<div id="gallery-wedding">
 			<label>Search Gallery</label>
-			<input type="text" name="q" placeholder="Search their name here..." />
+			<input type="text" name="p" placeholder="Search their name here..." />
 			<input type="submit" value="search" />
 	</div>
+	<div class="clearfix"></div>
 	<div class="mainwrapper">
 		<div class="boardwrapper">
 			<ul>

@@ -287,7 +287,7 @@ li:first-child span + span,li:first-child a:hover span:first-child {
 	margin-top:100px;
 	background:#fff;
 	width:960px;
-	margin:30px auto 0px;
+	margin:0px auto 0px;
 	padding:35px;
 	box-shadow:0px 3px 15px rgba(0,0,0,0.15);
 }
@@ -313,45 +313,304 @@ li:first-child span + span,li:first-child a:hover span:first-child {
 
 /* Galery Page Start */
 #galery-content {
-	margin-top:100px;
 	width:960px;
-	margin:30px auto 0px;
-	padding:35px;
+	margin:0px auto 0px;
+	padding:5px;
 	}
+#gallery-wedding {
+	margin-top:0px;
+	margin-right : 30px;
+	float : right;
+}
+
+#gallery-wedding label {
+	display:block;
+	width : 100px;
+}
+
+#gallery-wedding input[type='text'] {
+	margin-top:5px;
+	padding:5px;
+	width:200px;
+	
+}
+
+#gallery-wedding input[type='submit'] {
+	border:0px;
+	padding:5px 5px;
+	background:#fd7133;
+	color:#fff;
+	font-weight:bold;
+	border-radius:5px;
+}
 .photo-coloumn {
 	width : 187px;
 	height : 131px;
 	float : left;
-	margin : 20px 20px;
-	background : #fff;
-}
-.text-photo{
-	margin-top : 130px;
 	margin-left : 0px;
-	float : center;
-	font-family : arial;
-	font-size: 14px;
-	color : #000;
-	text-align : center;
-	font-weight : bold;
+	background : #fff;
+	border-radius : 5px;
+	box-shadow:0px 3px 15px rgba(0,0,0,0.15);
 }
+
+.mainwrapper {
+	position:absolute;
+	display:block;
+	width:960px;
+	
+}
+.boardwrapper {
+	position:relative;
+	display:block;
+	width:960px;
+	
+}
+.boardwrapper > ul {
+	list-style-type:none;
+	position:relative;
+	display:block;
+	left:0;
+	top:55px;
+	margin:0px;
+	padding:0;
+}
+.boardwrapper > ul li {
+	float:left;
+	margin:25px;
+	width:180px;
+	position:relative;
+}
+.boardwrapper > ul li:first-child {
+	margin-left:25px;
+}
+.boardwrapper > ul li:last-child {
+	margin-right:25px;
+}
+.bluraywrap {
+	position:relative;
+	display:block;
+	z-index:10;
+	margin:0 auto;
+	width:100%px;
+}
+.bluray {
+	position:relative;
+	display:block;
+	height:120px;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+.bluray:before {
+	position:absolute;
+	display:block;
+	content:"";
+	width:100%;
+	height:18px;
+	top:-18px;
+	left:-1px;
+
+}
+.bluray:after {
+	position:absolute;
+	display:block;
+	content:"";
+	width:100%;
+	height:8px;
+	bottom:-8px;
+	left:-1px;
+}
+
+.bluraywrap .shadow {
+	position:absolute;
+	display:block;
+	width:200%;
+	height:15px;
+	bottom:-20px;
+	left:-50%;
+	z-index:-1;
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 51%, rgba(0,0,0,0) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.5)), color-stop(50%,rgba(0,0,0,0)), color-stop(51%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0)));
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%);
+	background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%);
+	background: radial-gradient(ellipse at center,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', endColorstr='#00000000',GradientType=1 );
+	opacity:1;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+.boardwrapper ul li:hover .bluray{
+	top:-25px;
+}
+.boardwrapper ul li:hover .shadow{
+	opacity:0.4;
+}
+.boardwrapper ul li:hover .buttonwrapper{
+	visibility:visible;
+	opacity:1;
+}
+.boardwrapper ul li:hover .info{
+	visibility:visible;
+	opacity:1;
+}
+.boardwrapper ul li:hover .info:before{
+	top:-12px;
+	left:194px;
+}
+.boardwrapper ul li:hover .info:after{
+	top:-2px;
+	left:204px;
+}
+.info {
+	position:absolute;
+	left:-120px;
+	bottom:-350px;
+	background:#fff;
+	width:400px;
+	height:200px;
+	padding:30px 10px 15px 10px;
+	z-index:12;
+	-webkit-border-radius:2px 2px 6px 6px;
+	border-radius:2px 2px 6px 6px;
+	border:1px solid rgba(0,0,0,0.1);
+	visibility:hidden;
+	opacity:0;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	-webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+	font-family: 'Dosis', sans-serif;
+}
+.info:before {
+	position:absolute;
+	display:block;
+	content:"";
+	width:12px;
+	height:12px;
+	top:-28px;
+	left:188px;
+	-webkit-border-radius:12px;
+	border-radius:16px;
+	border:1px solid rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+	background: rgb(234,114,114);
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(234,114,114,1) 0%, rgba(160,0,0,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(234,114,114,1)), color-stop(100%,rgba(160,0,0,1)));
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(234,114,114,1) 0%,rgba(160,0,0,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover,  rgba(234,114,114,1) 0%,rgba(160,0,0,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(234,114,114,1) 0%,rgba(160,0,0,1) 100%);
+	background: radial-gradient(ellipse at center,  rgba(234,114,114,1) 0%,rgba(160,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea7272', endColorstr='#a00000',GradientType=1 );
+	background-position:-2px -2px;
+	z-index:2;
+	-webkit-transition: all 400ms linear;
+	-moz-transition: all 400ms linear;
+	-ms-transition: all 400ms linear;
+	-o-transition: all 400ms linear;
+	transition: all 400ms linear;
+}
+.info:after {
+	position:absolute;
+	display:block;
+	content:"";
+	width:3px;
+	height:8px;
+	top:-18px;
+	left:194px;
+	border-bottom:2px solid rgba(0,0,0,0.2);
+	background: rgb(170,170,170);
+	background: -moz-linear-gradient(left,  rgba(170,170,170,1) 0%, rgba(234,234,234,1) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(170,170,170,1)), color-stop(100%,rgba(234,234,234,1)));
+	background: -webkit-linear-gradient(left,  rgba(170,170,170,1) 0%,rgba(234,234,234,1) 100%);
+	background: -o-linear-gradient(left,  rgba(170,170,170,1) 0%,rgba(234,234,234,1) 100%);
+	background: -ms-linear-gradient(left,  rgba(170,170,170,1) 0%,rgba(234,234,234,1) 100%);
+	background: linear-gradient(to right,  rgba(170,170,170,1) 0%,rgba(234,234,234,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#eaeaea',GradientType=1 );
+	-moz-transform:rotate(-25deg);
+	-webkit-transform:rotate(-25deg);
+	-o-transform:rotate(-25deg);
+	-ms-transform:rotate(-25deg);
+	transform:rotate(-25deg);
+	z-index:1;
+	-webkit-transition: all 400ms linear;
+	-moz-transition: all 400ms linear;
+	-ms-transition: all 400ms linear;
+	-o-transition: all 400ms linear;
+	transition: all 400ms linear;
+}
+.info h1 {
+	font-size:16px;
+	font-weight:bold;
+	margin:10px 0 25px 0;
+	color:#154C6D;
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    filter: dropshadow(color=#000000, offx=0, offy=2);
+}
+.info h2 {
+	color:#154C6D;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	display:block;
+	border-bottom:1px solid rgba(0,0,0,0.45);
+	-webkit-box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.05); 
+	clear:both;
+}
+.info p{
+	font-size:12px;
+	margin:0 0 15px 0;
+}
+
 #other-page{
-	margin-top : 550px;
+	margin-top : 80px;
 	margin-left : 20px;
-	width : 880px;
-	/*background : #333;*/
+	font-family: "Lucida Sans","Lucida Grande",sans-serif;
+	font-size: 85%px;
+	float : center
 }
-.l{
-	float : left;
-	text-align : left;
-	font-weight : bold;
-	color : red;
+
+#other-page a {
+    color: #4A4A4A;
+    border: 0; outline: 0;
 }
-.r{
-	float : right;
-	text-align : right;
-	font-weight : bold;
-	color : red;
+
+.pagination {
+    text-align: center;
+    margin: 20px
+}
+.pagination a, .pagination strong {
+    background: #fff;
+    display: inline-block;
+    margin-right: 3px;
+    padding: 4px 12px;
+    text-decoration: none;
+	line-height: 1.5em;
+	
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.pagination a:hover {
+    background-color: #BEBEBE;
+    color: #fff;
+}
+.pagination a:active {
+	background: rgba(190, 190, 190, 0.75);
+}
+.pagination strong {
+    color: #fff;
+    background-color: #BEBEBE;
 }
 /* Galery Page End */
 
@@ -360,29 +619,96 @@ li:first-child span + span,li:first-child a:hover span:first-child {
 	width:960px;
 	margin:0px auto 0px ;
 	padding:50px;
-	font-family : calibri;
-	font-size : 16px;
 }
-#contact-content h1{
-	font-size : 30px;
-	color : #000;
-	font-family : Arial Bold;
-}
-#contact-content fieldset{
-	margin-top : -200px;
-	margin-left : 500px;
-	padding : 20px;
+#left-contact{
+	width : 640px;
+	margin-left : 0px;
 	float : left;
-	background : #D4BFFF;
-	border:none;
-	border-radius : 10px;
-	box-shadow : 0px 3px 13px rgba(0,0,0,0.2);
+	background : #e1d8b5;
+	border-radius : 7.5px;
 }
-fieldset div input,fieldset div textarea{width:220px;border-top:1px solid #555;border-left:1px solid #555;border-bottom:1px solid #ccc;border-right:1px solid #ccc;padding:auto;color:#333}
-#contact-content label{float:left;width:50px;padding:0 2em;text-align:left;}
-.fm-req {font-weight : bold}
-#fm-submit{clear:both;padding-top:1em;text-align:right;}
-#fm-submit input{border:1px solid #333;padding:2px 1em;background: #555;color:#fff;font-size:100%; width: 80px}
+#left-contact h1{
+	margin-left : 20px;
+	font-size :30px;
+	font-weight : bold
+}
+#contact-form {display:block}
+#contact-form label {
+		display:block;
+		height:37px;
+		overflow:hidden;
+		font-weight : bold;
+	}
+#contact-form input {
+		float:left;
+		width:265px;
+		font-size:12px;
+		line-height:1.25em;
+		color:#222;
+		padding:6px 10px 7px;
+		margin:0;
+		font-family:Arial, Helvetica, sans-serif;
+		border:1px solid #e5e5e5;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		outline:none;
+	}
+#contact-form textarea {
+		float:left;
+		height:238px;
+		width:529px;
+		font-size:12px;
+		line-height:1.25em;
+		color:#222;
+		padding:6px 10px;
+		margin:0;
+		font-family:Arial, Helvetica, sans-serif;
+		border:1px solid #e5e5e5;
+		overflow:auto;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		outline:none;
+	}
+.text-form {
+	float:left;
+	display:block;
+	font-size:14px;
+	line-height:2em;
+	width:83px;
+	color:#222;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#contact-form fieldset{margin:5px 5px;border:none;}
+.button {
+	width : 60px;
+	right:0px;top:10px;
+	border-radius:4px;
+	padding:10px;
+	background:#000;
+	color:#fff;
+	font-weight:bold;
+	font-size:12px;	
+	margin-top : 20px;
+	margin-left : 460px;
+	text-align : center;
+}
+#right-contact{
+	margin-left : 670px;
+	width : 280px;
+	
+}
+#right-contact h2{
+	margin-top : 20px;
+	margin-bottom : 20px;
+	font-size : 24px;
+	font-weight : bold
+}
+.img-indent-bot {margin-bottom: 25px;font-weight :14px}
+dl span {float:left}
+dl strong {float:right; font-weight:bold}
+dl dd {width:100%; overflow:hidden; margin-bottom :5px;}
 /* Contact Page End */
 
 /* About Page Start*/
@@ -396,22 +722,49 @@ fieldset div input,fieldset div textarea{width:220px;border-top:1px solid #555;b
 	margin-left : 220px;
 	height : 600px;
 	padding : 0px;
-	background : #000;
 	position : absolute
+}
+#left-content h1{
+	font-size : 30px;
+	font-weight : bold
 }
 #right-content{
 	width : 300px;
+	height : 500px;
 	margin-top : 0px;
 	margin-left : 800px;
 	height : 300px;
 	padding : 0px;
-	background : #333;
-	position : absolute
+	position : absolute;
 }
-.right-content1{
-	height : 250px;
-	margin-top :350px;
-	background : #fff
+#right-content h1{
+	font-weight : bold;
+	font-size : 24px;
+	margin-bottom : 10px;
+}
+#right-content span{
+	font-style : italic;
+	margin-left : 15px;
+}
+#right-content p{
+	font-style : normal;
+	text-align : justify;
+}
+#right-content a{
+	color : #333;
+	font-size : 12px;
+	padding : 10px;
+	position : fixed;
+	top : 400px;
+	margin-left :80px
+}
+#right-content1{
+	width : 300px;
+	margin-top :100px;
+	margin-left : 0px;
+	border-top : 5px solid #000;
+	padding : 0px;
+	position : absolute;
 }
 /* About Page End */
 
@@ -545,17 +898,27 @@ fieldset div input,fieldset div textarea{width:220px;border-top:1px solid #555;b
 #term-content {
 	width:960px;
 	margin-left:200px;
-	padding:50px;
+	margin-top : 10px;
+	padding:30px;
 	border : 2px solid #333;
 	box-shadow:0px 3px 20px rgba(0,0,0,0.5);
 	background : #e6e3e3
 }
+.scroll
+{
+margin : 0px;
+width:100%;
+height:550px;
+overflow:scroll;
+}
+
 #term-content p{
 	text-align: justify;
 	font-size : 12px;
 	padding : 0px;
 }
 #term-content h1{
+	padding : 0px;
 	margin-top : 0px;
 	margin-bottom : 30px;
 	font-size : 24px;
@@ -572,15 +935,15 @@ fieldset div input,fieldset div textarea{width:220px;border-top:1px solid #555;b
 #form-content {
 	width:960px;
 	margin-left:200px;
-	padding:50px;
+	padding:25px;
 	border : 2px solid #333;
 	box-shadow:0px 3px 20px rgba(0,0,0,0.5);
 	background : #f4f3f3;
 	opacity : 0.8
 }
-fieldset{margin:30px 10px;border:none;border-top:1px solid#333;}
+fieldset{margin:10px 10px;border:none;border-top:1px solid#333;}
 legend{margin:1em 0;padding:0 .5em;color:#f00058;background:transparent;font-size:1.3em;font-weight:bold;}
-#form-content label{float:left;width:100px;padding:0 1em;text-align:right;}
+#form-content label{float:left;width:150px;padding:0 1em;text-align:right;}
 fieldset div{margin-bottom:.5em;padding:0;display:block;}
 fieldset div input,fieldset div textarea{width:220px;border-top:1px solid #555;border-left:1px solid #555;border-bottom:1px solid #ccc;border-right:1px solid #ccc;padding:1px;color:#333;}
 fieldset div select{padding:1px;}div

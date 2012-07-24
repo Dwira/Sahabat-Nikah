@@ -30,8 +30,6 @@
 		  </ul>
 		</nav>
 		
-		<!--<a id="register" href="#">I'm Interested</a>
-		<a id="demo" href="#">Watch Feature</a>-->
 	</div>
 	<div class="clearfix"></div>
 </div>

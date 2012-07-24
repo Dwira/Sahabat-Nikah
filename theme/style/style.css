@@ -25,13 +25,13 @@ input {
 #header {
 	border-bottom:1px solid #999	;
 	height:58px;
-	background:#444;
+	background:#111;
 }
 
 #header-wrapper {
 	position:relative;
 	height:70px;
-	width:900px;
+	width:1000px;
 	margin:0px auto;
 }
 
@@ -63,8 +63,8 @@ input {
 #footer {
 	position:absolute;
 	left:50%;bottom:25px;
-	margin-left:-460px;
-	width:900px;
+	margin-left:-500px;
+	width:1000px;
 }
 
 #footer ul {
@@ -91,13 +91,18 @@ input {
 
 /* Home Page Start */
 
-#main-content {
+/* #main-content {
 	position:absolute;
 	top:50%;left:50%;
 	margin-top:-200px;
 	margin-left:-450px;
 	width:900px;
 	height:400px;
+}*/
+
+#main-content {
+	width:1000px;
+	margin:40px auto;
 }
 
 #viewer-content {
@@ -106,7 +111,7 @@ input {
 
 #featured-wedding {
 	position:relative;
-	width:500px;
+	width:600px;
 	border:10px solid #fff;
 	box-shadow:0px 3px 13px rgba(0,0,0,0.2);
 }
@@ -127,7 +132,7 @@ input {
 #featured-title {
 	position:absolute;
 	bottom:0px;left:0px;right:0px;
-	padding:10px;
+	padding:17.5px;
 	background:rgba(0,0,0,0.4);
 	display:block;
 	color:#fff;
@@ -150,13 +155,14 @@ input {
 
 #search-wedding input[type='text'] {
 	margin-top:5px;
-	padding:5px;
-	width:450px;
+	padding:12px;
+	width:520px;
 }
 
 #search-wedding input[type='submit'] {
 	border:0px;
-	padding:7.5px 10px;
+	margin-left:10px;
+	padding:11.5px 20px;
 	background:#fd7133;
 	color:#fff;
 	font-weight:bold;
@@ -165,18 +171,20 @@ input {
 
 #welcome-message {
 	float:left;
-	margin-left:600px;
-	margin-top : -400px;
-	width:300px;
+	width:330px;
+	padding-left:40px;
+	position:relative;
 }
 
 #welcome-message h1 {
-	margin-top:12px;
+	margin-top:7.5px;
+	margin-bottom:15px;
+	font-size:36px;
 }
 
 #welcome-message p {
 	color:#444;
-	line-height:19px;
+	line-height:22px;
 }
 
 /*#welcome-message a {
@@ -204,12 +212,10 @@ input {
 }
 
 #welcome-message ul {
-	position: absolute;
-	top: 60%;
-	left: 85%;
+	position: relative;
 	width: 320px;
 	height: 30px;
-	margin: -15px 0 0 -160px;
+	margin-top:20px;
 	list-style: none;
 	font: .75em "lucida grande", arial, sans-serif;
 }
@@ -476,7 +482,7 @@ li:first-child span + span,li:first-child a:hover span:first-child {
 .info {
 	position:absolute;
 	left:-120px;
-	bottom:-350px;
+	top:130px;
 	background:#fff;
 	width:400px;
 	height:200px;

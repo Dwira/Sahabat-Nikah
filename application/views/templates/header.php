@@ -5,8 +5,9 @@
 </head>
 <body>
 <div id="header">
-	<a href="<?= base_url() ?>home"><div id="logo"></div></a>
-	<div class="login">LOGIN</div>
-	<div class="login">REGISTER</div>
-
+	<div id="header-wrapper">
+		<a href="<?= base_url() ?>home"><div id="logo"></div></a>
+		<div class="login">LOGIN</div>
+		<div class="login">REGISTER</div>
+	</div>
 </div>

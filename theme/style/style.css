@@ -23,6 +23,12 @@ input {
 /* Default Style End */
 
 #header {
+	border-bottom:1px solid #999	;
+	height:58px;
+	background:#444;
+}
+
+#header-wrapper {
 	position:relative;
 	height:70px;
 	width:900px;

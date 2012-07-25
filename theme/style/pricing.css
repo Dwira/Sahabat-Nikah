@@ -1,0 +1,29 @@
+/* Pricing Page Start */
+
+#pricing-content{
+	margin-top:100px;
+	background:#fff;
+	width:960px;
+	margin:0px auto 0px;
+	padding:35px;
+	box-shadow:0px 3px 15px rgba(0,0,0,0.15);
+}
+
+.order-coloumn {
+	width :290px;
+	height:200px;
+	float : left;
+	margin:0px 10px;
+}
+
+.order-coloumn h1 {
+	color:#abcdef;
+	background:#012345;
+}
+
+.button-order{
+	float:right;
+	margin-top:10px;
+}
+
+/* Pricing Page End */

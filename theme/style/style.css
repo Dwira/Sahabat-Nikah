@@ -644,7 +644,7 @@ li:first-child span + span,li:first-child a:hover span:first-child {
 	font-size :30px;
 	font-weight : bold
 }
-#contact-form {display:block}
+#contact-form {display:block;}
 #contact-form label {
 		display:block;
 		height:37px;
@@ -796,6 +796,15 @@ dl dd {width:100%; overflow:hidden; margin-bottom :5px;}
 	margin : 5px 5px;
 	background : #cde0f3;
 	border-radius:7.5px;
+}
+.fitur-icon {
+	width: 100px;
+}
+.fitur-text{
+	width: 190px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 8px;
 }
 /* Fitur Page End */
 

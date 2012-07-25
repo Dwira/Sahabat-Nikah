@@ -1,0 +1,24 @@
+/* Registrasi Page Start*/
+#form-content {
+	width:960px;
+	margin-left:200px;
+	padding:25px;
+	border : 2px solid #333;
+	box-shadow:0px 3px 20px rgba(0,0,0,0.5);
+	background : #f4f3f3;
+	opacity : 0.8
+}
+fieldset{margin:10px 10px;border:none;border-top:1px solid#333;}
+legend{margin:1em 0;padding:0 .5em;color:#f00058;background:transparent;font-size:1.3em;font-weight:bold;}
+#form-content label{float:left;width:150px;padding:0 1em;text-align:right;}
+fieldset div{margin-bottom:.5em;padding:0;display:block;}
+fieldset div input,fieldset div textarea{width:220px;border-top:1px solid #555;border-left:1px solid #555;border-bottom:1px solid #ccc;border-right:1px solid #ccc;padding:1px;color:#333;}
+fieldset div select{padding:1px;}div
+.fm-multi div{margin:5px 0;}div
+.fm-multi input{width:1em;}div
+.fm-multi label{display:block;padding-left:5em;text-align:left;}
+#fm-submit{clear:both;padding-top:1em;text-align:left;padding-left:333px;}
+#fm-submit input{border:1px solid #333;padding:2px 1em;background: #555;color:#fff;font-size:100%;}input:focus,textarea:focus{background:#efefef;color:#000;}fieldset div
+.fm-req{font-weight:bold;}fieldset div
+.fm-req label:before{content:"* ";}
+/*Registrasi Page End */

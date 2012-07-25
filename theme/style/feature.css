@@ -1,0 +1,27 @@
+/* Fitur Page Start */
+#fitur-content {
+	position : relative;
+	margin-top:30px;
+	width:960px;
+	margin-left : 200px;
+	padding:35px;
+}
+.fitur-coloumn {
+	position : relative;
+	width : 308px;
+	height : 138px;
+	float : left;
+	margin : 5px 5px;
+	background : #cde0f3;
+	border-radius:7.5px;
+}
+.fitur-icon {
+	width: 100px;
+}
+.fitur-text{
+	width: 190px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 8px;
+}
+/* Fitur Page End */

@@ -32,7 +32,7 @@
 #featured-title {
 	position:absolute;
 	bottom:0px;left:0px;right:0px;
-	padding:17.5px;
+	padding:13px 15px;
 	background:rgba(0,0,0,0.4);
 	display:block;
 	color:#fff;
@@ -55,7 +55,7 @@
 #search-wedding input[type='text'] {
 	margin-top:10px;
 	padding:7px 9px;
-	width:450px;
+	width:460px;
 	border: 1px solid #999;
 }
 
@@ -66,7 +66,7 @@
 #search-wedding input[type='submit'] {
 	border:0px;
 	margin-left:10px;
-	padding:8.5px 20px;
+	padding:8.5px 15px;
 	background:#fd7133;
 	color:#fff;
 	font-weight:bold;
@@ -78,7 +78,7 @@
 	position: absolute;
 	top: 57px;
 	left: 0px;
-	right: 100px;
+	right: 90px;
 	display: none;
 	list-style: none;
 	padding: 0px;

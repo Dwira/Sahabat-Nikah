@@ -3,12 +3,16 @@
 <title>Sahabat Nikah - <?= $title ?></title>
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/style.css" />
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/home.css" />
+<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/about.css" />
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/gallery.css" />
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/faq.css" />
-<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/features.css" />
+<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/feature.css" />
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/pricing.css" />
-<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/terms.css" />
-<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/contactus.css" />
+<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/term.css" />
+<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/contact.css" />
+<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/register.css" />
+<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/view.css" />
+<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/weddingpage.css" />
 </head>
 <body>
 <div id="header">

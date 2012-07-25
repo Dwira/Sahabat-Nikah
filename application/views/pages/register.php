@@ -13,7 +13,8 @@
 	</div>
 	<div class="fm-req">
 		<label for="fm-username">User Name:</label>
-		<input name="fm-username" id="fm-username" type="text"/> (digunakan untuk login di sahabatnikah.com)
+		<input name="fm-username" id="fm-username" type="text"/> 
+		
 	</div>
 	<div class="fm-req">
 		<label for="fm-password">Password:</label>
@@ -45,7 +46,7 @@
 	<legend>Data Contact</legend>
 	<div class="fm-req">
 		<label for="fm-cp">Contact Person:</label>
-		<input id="fm-cp" name="fm-cp" type="text"/> (nama orang yang dapat dihubungi)
+		<input id="fm-cp" name="fm-cp" type="text"/>
 	</div>
 	<div class="fm-req">
 		<label for="fm-phone">Telepon (Kantor):</label>

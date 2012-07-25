@@ -11,3 +11,7 @@
 		<li id="copyright">&copy 2012 Sahabatnikah</li>
 	</ul>
 </div>
+<script type="text/javascript" src="<?=base_url();?>src/script/jquery.js"></script>
+<script type="text/javascript" src="<?=base_url();?>src/script/jquery-effect.js"></script>
+</body>
+</head>

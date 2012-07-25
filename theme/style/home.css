@@ -57,6 +57,11 @@
 	margin-top:10px;
 	padding:7px 9px;
 	width:520px;
+	border: 1px solid #999;
+}
+
+#search-wedding input[type='text']:focus {
+
 }
 
 #search-wedding input[type='submit'] {
@@ -71,20 +76,23 @@
 
 #search-result {
 	position: absolute;
-	top: 59px;
+	top: 57px;
 	left: 0px;
-	right: 99px;
+	right: 100px;
 	display: none;
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
-	border: 1px solid rgba(0,0,0,0.1);
+	border: 1px solid #999;
+	border-top: 3px solid #fd7133;
 }
 
 #search-result li a {
 	display: block;
-	background: #333;
+	background: #fff;
+	color: #000;
 	padding: 7.5px 10px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 #search-result li a:hover {

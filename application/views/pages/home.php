@@ -5,9 +5,17 @@
 			<div id="featured-title">NOW LIVE: <span>Gunawan Sasongko & Rizki Amalia</span></div></a>
 		</div>
 		<div id="search-wedding">
-			<label>Your friend's married too? Watch them live from here</label>
-			<input type="text" name="q" placeholder="Search their name here..." />
-			<input type="submit" value="search" />
+			<form action="/search">
+				<label>Your friend's married too? Watch them live from here</label>
+				<input id="search-input" type="text" name="q" placeholder="Search their name here..." />
+				<input type="submit" value="search" />
+			</form>
+			<ul id="search-result">
+				<li><a href="#">Gunawan Sasongko & Rizki Amalia</a></li>
+				<li><a href="#">Fajar Arief Prabowo & Dwira Kurnianto Widodo</a></li>
+				<li><a href="#">Jason Widagdo & Nurul Magfirotunnisak</a></li>
+				<li><a href="#">Fatih Kalifa</a></li>
+			</ul>
 		</div>
 	</div>
 	<div id="welcome-message">

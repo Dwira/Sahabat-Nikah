@@ -18,7 +18,15 @@
 <div id="header">
 	<div id="header-wrapper">
 		<a href="<?= base_url() ?>home"><div id="logo"></div></a>
-		<div class="login">LOGIN</div>
-		<div class="login">REGISTER</div>
+		<a id="btn-login" href="#" class="btn-header-action">LOGIN</a>
+		<a href="#" class="btn-header-action">REGISTER</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div id="login-form">
+	<div id="login-form-wrapper">
+	<input type="text" name="username" placeholder="username" />
+	<input type="password" name="password" placeholder="password" />
+	<input type="submit" value="LOGIN" />
 	</div>
 </div>

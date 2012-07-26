@@ -17,9 +17,9 @@
 <body>
 <div id="header">
 	<div id="header-wrapper">
-		<a href="<?= base_url() ?>home"><div id="logo"></div></a>
+		<a href="<?=base_url();?>home"><div id="logo"></div></a>
 		<a id="btn-login" href="#" class="btn-header-action">LOGIN</a>
-		<a href="#" class="btn-header-action">REGISTER</a>
+		<a href="<?=base_url();?>register" class="btn-header-action">REGISTER</a>
 		<div class="clearfix"></div>
 	</div>
 </div>

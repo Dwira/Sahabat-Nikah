@@ -1,21 +1,23 @@
 /* Contact Page Start */
 #contact-content {
-	width:960px;
-	margin:0px auto 0px ;
-	padding:50px;
+	width:1000px;
+	margin:35px auto 0px ;
 }
+
 #left-contact{
-	width : 640px;
-	margin-left : 0px;
-	float : left;
-	background : #e1d8b5;
-	border-radius : 7.5px;
+	width: 640px;
+	float: left;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #d7d7d7;
 }
+
 #left-contact h1{
 	margin-left : 20px;
 	font-size :30px;
 	font-weight : bold
 }
+
 #contact-form {display:block;}
 #contact-form label {
 		display:block;
@@ -79,7 +81,8 @@
 	text-align : center;
 }
 #right-contact{
-	margin-left : 670px;
+	float: left;
+	margin-left: 20px;
 	width : 280px;
 	
 }

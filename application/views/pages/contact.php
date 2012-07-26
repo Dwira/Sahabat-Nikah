@@ -1,7 +1,7 @@
 <div id="contact-content">
 	<div id="left-contact">
 	<h1> Kirim Pertanyaan </h1>
-	<form id="contact-form" method="post" enctype="multipart/form-data">
+	<form id="contact-form" method="post" action="/sendcontact">
 			<fieldset>
 				<label><span class="text-form">Full Name:</span><input type="text"></label>
 				<label><span class="text-form">E-mail:</span><input type="text"></label>
@@ -12,8 +12,7 @@
 				</div>
 				
 			</fieldset>
-			<div class="button">SEND
-			</div>
+			<input type="submit" value="submit" />
 	</form>
 	</div>
 

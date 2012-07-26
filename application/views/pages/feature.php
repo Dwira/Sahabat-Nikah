@@ -1,8 +1,7 @@
 <ul id= "fitur-content">
-	
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg" />
 			</div>
 			<div class="fitur-text">
 				<h4>Live Streaming</h4>
@@ -11,7 +10,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg" />
 			</div>
 			<div class="fitur-text">
 				<h4>Live Interaction</h4>
@@ -20,7 +19,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Wedding Page</h4>
@@ -31,7 +30,7 @@
 		
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Buku Tamu</h4>
@@ -40,7 +39,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Galery Foto</h4>
@@ -49,7 +48,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Video Comment</h4>
@@ -60,7 +59,7 @@
 		
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Connect Facebook</h4>
@@ -69,7 +68,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Doorprize</h4>
@@ -78,7 +77,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Record via smartphone</h4>
@@ -89,7 +88,7 @@
 		
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4></h4>
@@ -98,7 +97,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4></h4>
@@ -107,7 +106,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" width="80" height="100"/>
+				<img src="<?=base_url();?>theme/img/.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4></h4>

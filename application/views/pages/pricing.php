@@ -18,8 +18,8 @@
 				<li>1 hari</li>
 				<li>5 menit</li>
 				<li>5</li>
-				<li>Tidak</li>
-				<li>Tidak</li>
+				<li class="down">Tidak</li>
+				<li class="down">Tidak</li>
 				<li>Free</li>
 			</ul>
 			</div>
@@ -28,7 +28,7 @@
 				<li>4 hari</li>
 				<li>30 menit</li>
 				<li>30</li>
-				<li>Tidak</li>
+				<li class="down">Tidak</li>
 				<li>Ya</li>
 				<li>Rp 100.000</li>
 			</ul>

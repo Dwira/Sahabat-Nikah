@@ -1,57 +1,50 @@
 /* About Page Start*/
 #about-content{
-	width:960px;
-	height:620px;
-	margin:0px;
-	padding:50px;
+	width:1000px;
+	margin:50px auto;
 }
+
 #left-content{
-	width:480px;
-	margin-left : 220px;
-	height : 600px;
-	padding : 0px;
-	position : absolute
+	width:630px;
+	padding : 0px 100px 0px 0px;
+	float:left;
 }
+
+#left-content h1 {
+	margin-top: 5px;
+}
+
+#left-content img {
+	width: 630px;
+	height: 200px;
+	background: #fff;
+}
+
 #left-content h1{
 	font-size : 30px;
 	font-weight : bold
 }
 #right-content{
-	width : 300px;
-	height : 500px;
-	margin-top : 0px;
-	margin-left : 800px;
-	height : 300px;
-	padding : 0px;
-	position : absolute;
+	width : 250px;
+	margin-right:20px;
+	float: left;
 }
-#right-content h1{
+#testimonial h1{
 	font-weight : bold;
 	font-size : 24px;
 	margin-bottom : 10px;
 }
-#right-content span{
-	font-style : italic;
-	margin-left : 15px;
-}
-#right-content p{
+
+#testimonial p{
 	font-style : normal;
 	text-align : justify;
 }
-#right-content a{
-	color : #333;
-	font-size : 12px;
-	padding : 10px;
-	position : fixed;
-	top : 400px;
-	margin-left :80px
+
+
+
+#contact-details span{
+	font-style : italic;
+	line-height: 23px;
 }
-#right-content1{
-	width : 300px;
-	margin-top :100px;
-	margin-left : 0px;
-	border-top : 5px solid #000;
-	padding : 0px;
-	position : absolute;
-}
+
 /* About Page End */

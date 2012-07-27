@@ -18,7 +18,7 @@
 	</div>
 	<div class="fm-req">
 		<label for="fm-password">Password:</label>
-		<input name="fm-password" id="fm-password" type="text"/>
+		<input name="fm-password" id="fm-password" type="password"/>
 	</div>
 	</fieldset>
 	

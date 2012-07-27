@@ -19,8 +19,8 @@
 		</div>
 	</div>
 	<div id="welcome-message">
-		<h1>Welcome</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus arcu eu quam volutpat viverra gravida sem venenatis. In quis orci turpis. Nunc cursus elit eget enim tristique placerat faucibus leo adipiscing. Morbi auctor tortor tempor neque fringilla tincidunt. Proin purus est, pharetra ut dapibus vel, lobortis id neque.</p>
+		<h1>Keluarga dan teman tidak bisa hadir?</h1>
+		<p style="font-family:verdana;color:red;">Ketika mereka tidak bisa hadir, maka bawakan pernikahan anda kepada mereka! Tamu undangan dapat menyaksikan pernikahan anda dengan nyaman darimanasaja karena kami menyiarkannya via web. LIVE!</p>
 		<nav>
 		  <ul>
 			<li>

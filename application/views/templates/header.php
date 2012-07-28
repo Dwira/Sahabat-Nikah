@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/contact.css" />
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/register.css" />
 <link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/view.css" />
-<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/weddingpage.css" />
+<link rel="stylesheet" type="text/css" href="<?= base_url() ?>theme/style/wedding.css" />
 </head>
 <body>
 <div id="header">

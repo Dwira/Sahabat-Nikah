@@ -15,11 +15,6 @@
 					</div>
 					<div class="shadow"></div>
 				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
-				</div>
 			</li>
 			<li>
 				<div class="bluraywrap">
@@ -27,11 +22,6 @@
 					<div class="photo-coloumn"> </div>
 					</div>
 					<div class="shadow"></div>
-				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
 				</div>
 			</li>
 			<li>
@@ -41,11 +31,6 @@
 					</div>
 					<div class="shadow"></div>
 				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
-				</div>
 			</li>
 			<li>
 				<div class="bluraywrap">
@@ -53,11 +38,6 @@
 					<div class="photo-coloumn"> </div>
 					</div>
 					<div class="shadow"></div>
-				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
 				</div>
 			</li>
 			</ul>
@@ -69,11 +49,6 @@
 					</div>
 					<div class="shadow"></div>
 				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
-				</div>
 			</li>
 			<li>
 				<div class="bluraywrap">
@@ -81,11 +56,6 @@
 					<div class="photo-coloumn"> </div>
 					</div>
 					<div class="shadow"></div>
-				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
 				</div>
 			</li>
 			<li>
@@ -95,11 +65,6 @@
 					</div>
 					<div class="shadow"></div>
 				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
-				</div>
 			</li>
 			<li>
 				<div class="bluraywrap">
@@ -108,11 +73,7 @@
 					</div>
 					<div class="shadow"></div>
 				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
-				</div>
+
 			</li>
 			</ul>
 			<ul>
@@ -123,11 +84,7 @@
 					</div>
 					<div class="shadow"></div>
 				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
-				</div>
+
 			</li>
 			<li>
 				<div class="bluraywrap">
@@ -136,11 +93,7 @@
 					</div>
 					<div class="shadow"></div>
 				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
-				</div>
+
 			</li>
 			<li>
 				<div class="bluraywrap">
@@ -150,10 +103,7 @@
 					<div class="shadow"></div>
 				</div>
 				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
-				</div>
+
 			</li>
 			<li>
 				<div class="bluraywrap">
@@ -161,11 +111,6 @@
 					<div class="photo-coloumn"> </div>
 					</div>
 					<div class="shadow"></div>
-				</div>
-				<div class="info">
-					<h1>Mission: Impossible - Ghost Protocol (2011)</h1>
-					<h2>Plot</h2>
-					<p>The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.</br></br><i>Source: IMDB</i></p>
 				</div>
 			</li>
 			</ul>

@@ -1,7 +1,7 @@
 <ul id= "fitur-content">
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" />
+				<img src="<?=base_url();?>theme/img/livestream.jpg" />
 			</div>
 			<div class="fitur-text">
 				<h4>Live Streaming</h4>
@@ -10,7 +10,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg" />
+				<img src="<?=base_url();?>theme/img/comment.jpg" />
 			</div>
 			<div class="fitur-text">
 				<h4>Live Interaction</h4>
@@ -19,7 +19,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg"/>
+				<img src="<?=base_url();?>theme/img/weddingpage.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Wedding Page</h4>
@@ -30,7 +30,7 @@
 		
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg"/>
+				<img src="<?=base_url();?>theme/img/bukutamu.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Buku Tamu</h4>
@@ -39,16 +39,16 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg"/>
+				<img src="<?=base_url();?>theme/img/galerifoto.jpg"/>
 			</div>
 			<div class="fitur-text">
-				<h4>Galery Foto</h4>
+				<h4>Galeri Foto</h4>
 				<p>Berisi foto-foto susasana acara pernikahan yang di up-to-date diunggah langsung pada saat acara</p>
 			</div>
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg"/>
+				<img src="<?=base_url();?>theme/img/videocomment.png"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Video Comment</h4>
@@ -59,7 +59,7 @@
 		
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg"/>
+				<img src="<?=base_url();?>theme/img/facebooklogo.png"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Connect Facebook</h4>
@@ -68,7 +68,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg"/>
+				<img src="<?=base_url();?>theme/img/doorprize.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Doorprize</h4>
@@ -77,7 +77,7 @@
 		</div>
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
-				<img src="<?=base_url();?>theme/img/.jpg"/>
+				<img src="<?=base_url();?>theme/img/smartphone.jpg"/>
 			</div>
 			<div class="fitur-text">
 				<h4>Record via smartphone</h4>

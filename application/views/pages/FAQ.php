@@ -1,4 +1,4 @@
-<div id="FAQ-content">
+<div id="FAQ-content" class="content-focus">
 <div id="contain">
 	<div class="accordion">
 		<div id="tab-1">

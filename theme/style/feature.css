@@ -1,11 +1,4 @@
 /* Fitur Page Start */
-#fitur-content {
-	position : relative;
-	width:1000px;
-	margin: 35px auto;
-	padding: 0px;
-}
-
 #fitur-content .fitur-coloumn {
 	position : relative;
 	float : left;

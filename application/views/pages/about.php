@@ -1,4 +1,4 @@
-<div id="about-content">
+<div id="about-content" class="content-focus">
 	<div id="left-content">
 		<h1>About Us </h1>
 		<img src="<?=base_url();?>theme/img/about.jpg" />
@@ -17,7 +17,7 @@
 	</div>
 	<div id="right-content">
 		<div id="testimonial">
-			<h1> Testimonial</h1>
+			<h2>Testimonial</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus arcu eu quam volutpat viverra gravida sem venenatis. In quis orci turpis.</p><span> Fifi, Bandung </span>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus arcu eu quam volutpat viverra gravida sem venenatis. In quis orci turpis.</p><span> Fifi, Bandung </span>
 			<a href=# > <u>see more testimonial</u> </a>

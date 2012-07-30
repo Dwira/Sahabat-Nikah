@@ -1,4 +1,4 @@
-<ul id= "fitur-content">
+<ul id= "fitur-content" class="content-focus">
 		<div class="fitur-coloumn">
 			<div class="fitur-icon">
 				<img src="<?=base_url();?>theme/img/livestream.jpg" />

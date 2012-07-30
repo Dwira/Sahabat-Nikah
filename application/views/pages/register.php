@@ -1,4 +1,4 @@
-<div id="form-content">
+<div id="form-content" class="content-focus">
 	<h1> FORM REGISTRASI </h1>
 
 	<fieldset>	

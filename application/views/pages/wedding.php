@@ -6,7 +6,7 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=258413367597001";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div id="wedding-content">
+<div id="wedding-content" class="content-focus">
 	<div id="wedding-cover">
 		<h1>Gunawan Sasongko & Rizki Amalia</h1>
 		<a href="#">Watch Live Streaming</a>

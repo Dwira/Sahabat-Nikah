@@ -1,4 +1,4 @@
-<div id="pricing-content">
+<div id="pricing-content" class="content-focus">
 	<div id="package-list">
 	</div>
 	<div id="comparation">

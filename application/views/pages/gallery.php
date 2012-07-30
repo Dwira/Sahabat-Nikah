@@ -1,4 +1,4 @@
-<div id="galery-content">
+<div id="galery-content" class="content-focus">
 	<div id="gallery-wedding">
 			<label>Search Gallery</label>
 			<input type="text" name="p" placeholder="Search their name here..." />

@@ -1,4 +1,4 @@
-<div id ="testimonial-content">
+<div id ="testimonial-content" class="content-focus">
 <h1> Testimonials ... </h1>
 <div class="coloumn-testimonial"></div>
 <div class="coloumn-testimonial"></div>

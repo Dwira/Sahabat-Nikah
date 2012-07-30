@@ -11,9 +11,14 @@
 	}
 }
 
+html {
+	margin:0px;
+	padding:0px;
+}
+
 body {
-	margin:0;
-	padding:0;
+	margin:0px;
+	padding:0px;
 	background:#fff url('../img/bg.png');
 	font-family: sans-serif;
 	font-size:13px;
@@ -127,4 +132,21 @@ a.btn-header-action:hover, a.btn-header-action.active {
 
 #footer #copyright {
 	color:#777;
+}
+
+.content-focus {
+	width: 1000px;
+	margin: auto;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-top: 0px;
+	box-shadow: 0px 2px 13px rgba(0,0,0,0.1)
+}
+
+.content-focus h2 {
+	font-family: 'Devx', sans-serif;
+	border-bottom: 1px dashed #333;
+	margin: 0px;
+	font-size: 26px;
+	padding: 5px 0px;
 }

@@ -1,4 +1,4 @@
-<div id="contact-content">
+<div id="contact-content" class="content-focus">
 	<div id="left-contact">
 	<h1> Kirim Pertanyaan </h1>
 	<form id="contact-form" method="post" action="/sendcontact">

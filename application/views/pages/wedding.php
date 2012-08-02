@@ -16,6 +16,7 @@
 		<div id="wedding-content-left">
 			<div id="wedding-words">
 				<h2>Hi there,</h2>
+				<object width="580" height="317"><param name="FlashVars" value="id=6703191&movieUrl=http://cdnvsrvs2.flixwagon.com/6e43ab7921b6c99cf34b385d3be72067_101" /><param name="movie" value="http://www.flixwagon.com/flvPlayer.swf" /><param name="allowFullScreen" value="true" /><embed src="http://www.flixwagon.com/flvPlayer.swf" allowFullScreen="true" FlashVars="id=6703191&movieUrl=http://cdnvsrvs2.flixwagon.com/6e43ab7921b6c99cf34b385d3be72067_101" width="580" height="317" type="application/x-shockwave-flash" /></object>
 				<img src="<?=base_url();?>theme/img/mount.jpg" width="580"/>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

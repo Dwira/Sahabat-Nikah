@@ -51,10 +51,10 @@ Feature
 		+ Link watch video
 		
 	- Video Page
-		+ Video Embed
-		+ Komen -> Pesbook
+		+ Video Embed (v)
+		+ Komen -> Pesbook (v)
 		+ Video Komen ?
-		+ Live Picture -> Google Events
+		+ Live Picture -> Google Events (v)
 		
 	- Admin -> Add Order
 		+ Order List

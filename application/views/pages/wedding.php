@@ -9,15 +9,16 @@
 <div id="wedding-content" class="content-focus">
 	<div id="wedding-cover">
 		<h1>Gunawan Sasongko & Rizki Amalia</h1>
-		<a href="#">Watch Live Streaming</a>
+		<a id="watch-wedding" href="#">Watch Live Streaming</a>
 	</div>
 	
 	<div id="wedding-focus">
 		<div id="wedding-content-left">
 			<div id="wedding-words">
 				<h2>Hi there,</h2>
-				<object width="580" height="317"><param name="FlashVars" value="id=6703191&movieUrl=http://cdnvsrvs2.flixwagon.com/6e43ab7921b6c99cf34b385d3be72067_101" /><param name="movie" value="http://www.flixwagon.com/flvPlayer.swf" /><param name="allowFullScreen" value="true" /><embed src="http://www.flixwagon.com/flvPlayer.swf" allowFullScreen="true" FlashVars="id=6703191&movieUrl=http://cdnvsrvs2.flixwagon.com/6e43ab7921b6c99cf34b385d3be72067_101" width="580" height="317" type="application/x-shockwave-flash" /></object>
-				<img src="<?=base_url();?>theme/img/mount.jpg" width="580"/>
+				<div id="wedding-preview">
+					<img src="<?=base_url();?>theme/img/mount.jpg" width="580"/>
+				</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

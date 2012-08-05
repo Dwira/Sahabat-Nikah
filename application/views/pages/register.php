@@ -1,8 +1,8 @@
 <div id="form-content" class="content-focus">
-	<h1> FORM REGISTRASI </h1>
+	<h1> FORM REGISTRASI Perusahaan </h1>
 
 	<fieldset>	
-	<legend>Data 1</legend>
+	<legend>Data Utama Perusahaan</legend>
 	<div class="fm-req">
 		<label for="fm-namakantor">Nama Kantor:</label>
 		<input name="fm-namakantor" id="fm-namakantor" type="text"/>
@@ -23,7 +23,7 @@
 	</fieldset>
 	
 	<fieldset>
-	<legend>Data 2</legend>
+	<legend>Data Alamat</legend>
 	<div class="fm-req">
 		<label for="fm-owner">Alamat Kantor:</label>
 		<input id="fm-owner" name="fm-owner" type="text"/>

@@ -2,7 +2,13 @@
 #package-list {
 	height: 200px;
 }
-
+#package-list h1{
+	padding: 20px
+}
+#package-list p{
+	padding : 2px 20px;
+	margin :5px;
+}
 #comparation {
 	border-top: 1px solid #d7d7d7;
 }

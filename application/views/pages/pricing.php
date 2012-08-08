@@ -1,5 +1,13 @@
 <div id="pricing-content" class="content-focus">
-	<div id="package-list">
+
+	<div id="package-list">	<h1> Daftar Harga yang Tersedia </h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+	<p>Anda menginginkan informasi lebih lengkap? <a href=#> <u>Hubungi kami</u> </a></p>
 	</div>
 	<div id="comparation">
 		<div id="feature-list">
@@ -68,11 +76,11 @@
 	</div>
 	<div id="order-action">
 		<ul id="order-list">
-			<li><a href="#">SIGN UP</a></li>
-			<li><a href="#">SIGN UP</a></li>
-			<li><a href="#">SIGN UP</a></li>
-			<li><a href="#">SIGN UP</a></li>
-			<li><a href="#">SIGN UP</a></li>
+			<li><a href="#">ORDER</a></li>
+			<li><a href="#">ORDER</a></li>
+			<li><a href="#">ORDER</a></li>
+			<li><a href="#">ORDER</a></li>
+			<li><a href="#">ORDER</a></li>
 		</ul>
 	</div>
 	<div class="clearfix"></div>

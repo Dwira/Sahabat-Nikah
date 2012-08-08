@@ -1,0 +1,205 @@
+/* Home Page Start */
+
+#main-content {
+	width:1000px;
+	margin:40px auto;
+}
+
+#viewer-content {
+	float:left;
+}
+
+#featured-wedding {
+	position:relative;
+	width:530px;
+	border:10px solid #fff;
+	box-shadow:0px 3px 13px rgba(0,0,0,0.2);
+}
+
+#featured-wedding img{
+	-webkit-transition:opacity 0.15s linear;
+	-moz-transition:opacity 0.15s linear;
+	-o-transition:opacity 0.15s linear;
+	transition:opacity 0.15s linear;
+	border:1px solid rgba(0,0,0,0.2);
+
+}
+
+#featured-wedding:hover img{
+	opacity:0.7;
+}
+
+#featured-title {
+	position:absolute;
+	bottom:0px;left:0px;right:0px;
+	padding:13px 15px;
+	background:rgba(0,0,0,0.4);
+	display:block;
+	color:#fff;
+	font-weight:bold;
+}
+
+#featured-wedding span{
+	font-weight:normal;
+}
+
+#search-wedding {
+	margin-top:20px;
+	position: relative;
+}
+
+#search-wedding label {
+	display:block;
+}
+
+#search-wedding input[type='text'] {
+	margin-top:10px;
+	padding:7px 9px;
+	width:460px;
+	border: 1px solid #999;
+}
+
+#search-wedding input[type='text']:focus {
+
+}
+
+#search-wedding input[type='submit'] {
+	border:0px;
+	margin-left:10px;
+	padding:8.5px 15px;
+	background:#fd7133;
+	color:#fff;
+	font-weight:bold;
+	border-radius:3px;
+	cursor: pointer;
+}
+
+#search-result {
+	position: absolute;
+	top: 57px;
+	left: 0px;
+	right: 90px;
+	display: none;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #999;
+	border-top: 3px solid #fd7133;
+}
+
+#search-result li a {
+	display: block;
+	background: #fff;
+	color: #000;
+	padding: 7.5px 10px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#search-result li a:hover {
+	color: #fd7133;
+}
+
+#welcome-message {
+	float:left;
+	width:390px;
+	padding-left:40px;
+	position:relative;
+}
+
+#welcome-message h1 {
+	margin-top:7.5px;
+	margin-bottom:15px;
+	font-size:36px;
+}
+
+#welcome-message p {
+	color:#444;
+	line-height:22px;
+}
+	
+#welcome-message * {
+	padding: 0;
+	margin: 0;
+}
+
+#welcome-message ul {
+	position: relative;
+	width: 320px;
+	height: 30px;
+	margin-top:20px;
+	list-style: none;
+	font: .75em "lucida grande", arial, sans-serif;
+}
+
+#welcome-message a {
+	position: absolute;
+	width: 150px;
+	height: 100%;
+	text-decoration: none;
+}
+
+#welcome-message a span {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	line-height: 30px;
+}
+
+#welcome-message li:first-child a {
+	color: #000;
+	background: #fd7133;
+}
+
+#welcome-message li:first-child span {
+	-webkit-transition: opacity .4s linear;
+	-moz-transition: opacity .4s linear;
+	-o-transition: opacity .4s linear;
+	-ms-transition: opacity .4s linear;
+	transition: opacity .4s linear;
+}
+
+li:first-child span:first-child,li:first-child a:hover span + span {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+li:first-child span + span,li:first-child a:hover span:first-child {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+#welcome-message li + li a {
+	overflow: hidden;
+	right: 0;
+	color: #fff;
+}
+
+#welcome-message li + li span {
+	-webkit-transition: top .3s ease-out;
+	-moz-transition: top .3s ease-out;
+	-o-transition: top .3s ease-out;
+	-ms-transition: top .3s ease-out;
+	transition: top .3s ease-out;
+}
+
+#welcome-message li + li span:first-child {
+	background: #333;
+	top: 0;
+}
+
+#welcome-message li + li span + span {
+	background: #39f;
+	top: 30px;
+}
+
+#welcome-message li + li a:hover span:first-child {
+	top: -30px;
+}
+
+#welcome-message li + li a:hover span + span {
+	top: 0;
+}
+
+/* Home Page End */

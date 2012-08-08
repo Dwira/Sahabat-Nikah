@@ -1,0 +1,48 @@
+/* Fitur Page Start */
+#fitur-content .fitur-coloumn {
+	position : relative;
+	float : left;
+	margin : 8px;
+/*	background : #cde0f3; */
+	background: #fff;
+	border-radius:3px;
+	border: 1px solid #d7d7d7;
+	padding: 15px;
+	height: 110px;
+	-webkit-transition:all 0.15s linear;
+	-moz-transition:all 0.15s linear;
+	-o-transition:all 0.15s linear;
+	transition:all 0.15s linear;
+}
+
+#fitur-content .fitur-coloumn:hover {
+	border-color: #c7c7c7;
+	box-shadow: 0px 2px 13px rgba(0,0,0,0.2);
+}
+
+#fitur-content .fitur-icon img {
+	width: 80px;
+	height: 90px;
+}
+
+#fitur-content .fitur-icon {
+	float: left;
+}
+
+#fitur-content .fitur-text{
+	float:right;
+	width: 190px;
+	display: table-cell;
+	margin-left: 15px;
+}
+
+#fitur-content .fitur-text h4 {
+	margin: 0px;
+	font-size: 16px;
+}
+
+#fitur-content .fitur-text p {
+	margin: 5px 0px;
+}
+
+/* Fitur Page End */

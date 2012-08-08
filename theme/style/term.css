@@ -1,0 +1,19 @@
+/* Term Of Service Page Start */
+#term-content p{
+	text-align: justify;
+	font-size : 12px;
+	padding : 0px;
+}
+#term-content h1{
+	padding : 0px;
+	margin-top : 0px;
+	margin-bottom : 30px;
+	font-size : 24px;
+	font-weight : bold;
+	color : #fd7133;
+}
+#term-content h2{
+	font-size : 20px;
+	font-weight : bold;
+}
+/* Term Of Service Page End */

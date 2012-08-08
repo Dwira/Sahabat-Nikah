@@ -1,0 +1,45 @@
+/* About Page Start*/
+#left-content{
+	width:630px;
+	padding : 0px 100px 0px 0px;
+	float:left;
+}
+
+#left-content h1 {
+	margin-top: 5px;
+}
+
+#left-content img {
+	width: 630px;
+	height: 200px;
+	background: #fff;
+}
+
+#left-content h1{
+	font-size : 30px;
+	font-weight : bold
+}
+#right-content{
+	width : 250px;
+	margin-right:20px;
+	float: left;
+}
+#testimonial h1{
+	font-weight : bold;
+	font-size : 24px;
+	margin-bottom : 10px;
+}
+
+#testimonial p{
+	font-style : normal;
+	text-align : justify;
+}
+
+
+
+#contact-details span{
+	font-style : italic;
+	line-height: 23px;
+}
+
+/* About Page End */
